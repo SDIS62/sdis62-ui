@@ -1,0 +1,16 @@
+{
+  "name": "sdis62-ui",
+  "version": "1.0.0",
+  "main": {
+    "js/main.js",
+    "css/main.less"
+  },
+  "dependencies ": {
+    "bootstrap": "2.*.*",
+    "less.js": "1.*.*",
+    "modernizr": "2.*.*",
+    "jquery.tablesorter" : "2.*.*",
+    "tablesorter.theme.bootstrap2.css" : "dev-master",
+    "chosen" : "dev-master",
+  }
+}
