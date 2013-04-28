@@ -4,10 +4,10 @@
     "type": "git",
     "url": "git://github.com/SDIS62/sdis62-ui.git"
   },
-  "main": {
+  "main": [
     "js/main.js",
     "css/main.less"
-  },
+  ],
   "dependencies": {
     "bootstrap": "2.*.*",
     "less.js": "1.*.*",
