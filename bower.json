@@ -11,6 +11,6 @@
     "modernizr": "2.*.*",
     "jquery.tablesorter" : "2.*.*",
     "tablesorter.theme.bootstrap2.css" : "dev-master",
-    "chosen" : "dev-master",
+    "chosen" : "dev-master"
   }
 }
