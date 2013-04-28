@@ -1,11 +1,14 @@
 {
   "name": "sdis62-ui",
-  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SDIS62/sdis62-ui.git"
+  },
   "main": {
     "js/main.js",
     "css/main.less"
   },
-  "dependencies ": {
+  "dependencies": {
     "bootstrap": "2.*.*",
     "less.js": "1.*.*",
     "modernizr": "2.*.*",
