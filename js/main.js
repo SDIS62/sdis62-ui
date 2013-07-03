@@ -1,11 +1,18 @@
 // =======================================================================
-// Activation de tablesorter pour les table contenant la classe .tablesorter
+// Comportement du DOM avec jQuery
 // =======================================================================
+$(document).ready(function() {
 
-$("table.tablesorter").tablesorter({theme: 'bootstrap2'});
+    // =======================================================================
+    // Activation de tablesorter pour les table contenant la classe .tablesorter
+    // =======================================================================
 
-// =======================================================================
-// Activation de chosen pour les select contenant la classe .chosen
-// =======================================================================
+    $("table.tablesorter").tablesorter({theme: 'bootstrap2'});
 
-$("select.chosen").chosen();
+    // =======================================================================
+    // Activation de chosen pour les select contenant la classe .chosen
+    // =======================================================================
+
+    $("select.chosen").chosen();
+
+});
