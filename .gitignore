@@ -183,3 +183,9 @@ composer.phar
 #################
 
 *.~ml
+
+#################
+## Bower components
+#################
+
+bower_components
