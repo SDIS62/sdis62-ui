@@ -82,12 +82,53 @@ textarea {
     font-weight: 800;
 }
 
-#main-menu .nav > li > a {
+.nav li > a {
     padding-right: 10px;
     padding-left: 10px;
     font-size: 13px;
     font-weight: bold;
+    color: rgba(255,255,255,0.6);
 }
+
+.nav-main-menu.nav li.active > a {
+    color: rgba(255,255,255,1);
+}
+
+.nav-main-menu.nav li:hover > a {
+    color: rgba(255,255,255,0.8);
+}
+
+.nav-main-menu.nav .dropdown-menu li > a,
+.dropdown-menu li.active a,
+.dropdown-menu li:hover a {
+    color: #333;
+}
+
+.navbar .nav>.active>a,
+.navbar .nav>.active>a:hover,
+.navbar .nav>.active>a:focus,
+.nav-collapse .nav>li>a:hover,
+.nav-collapse .nav>li>a:focus,
+.nav-collapse .dropdown-menu a:hover,
+.nav-collapse .dropdown-menu a:focus,
+.navbar .btn-navbar,
+.navbar .btn-navbar:hover,
+.navbar .btn-navbar:focus,
+.navbar .btn-navbar:active,
+.navbar .btn-navbar.active,
+.navbar .btn-navbar.disabled,
+.navbar .btn-navbar[disabled] {
+    color: #fff;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.navbar .nav li.dropdown.open>.dropdown-toggle,
+.navbar .nav li.dropdown.active>.dropdown-toggle,
+.navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    background-color: rgba(255,255,255,0.3);
+    color: #fff;
+}
+
 .navbar .nav>.active>a,
 .navbar .nav>.active>a:hover,
 .navbar .nav>.active>a:focus {
@@ -111,16 +152,13 @@ textarea {
         padding: 15px 10px 15px;
     }
     
-    #main-menu-right li.connect {
+    .navbar .nav> li > a.connect {
         background-color: #5bb75b;
-        border-radius: 4px;
-        margin-top: 8px;
-    }
-
-    #main-menu-right li.connect a {
         color: white;
-        padding: 7px 5px;
-        font-weight: bold;
+        border-radius: 4px;
+        padding: 6px 3px;
+        margin-top: 9px;
+        margin-left: 10px;
     }
 }
 
@@ -148,6 +186,21 @@ footer {
 }
 
 /* Custom color ! */
-.navbar .brand {
-    background-color: #8e44ad;
+a {
+    color: #2c3e50;
+}
+
+.navbar-inner,
+.btn-primary,
+.btn-primary.disabled,
+.btn-primary[disabled],
+.btn-primary:hover,
+.nav-pills>.active>a,
+.nav-pills>.active>a:hover,
+.nav-pills>.active>a:focus,
+.nav-list>.active>a,
+.nav-list>.active>a:hover,
+.nav-list>.active>a:focus,
+.progress .bar {
+    background-color: #2c3e50;
 }
